@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  background: #444;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+#delivery {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+#comment {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+
+.product-card__title {
+  font-size: 20px;
+  color: #444;
+  margin: 10px;
+}
+
+.product-card__price {
+  font-size: 16px;
+  color: firebrick;
+}
+
+.product-card__btn {
+  background: rgb(221, 75, 75);
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid firebrick;
+  cursor: pointer;
+}
+
+.product-card__btn:hover {
+  background: white;
+  color: firebrick;
+}
+
+.product-card__btnp {
+  background: rgb(221, 75, 75);
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid firebrick;
+  cursor: pointer;
+}
+
+.product-card__btnm {
+  background: rgb(221, 75, 75);
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid firebrick;
+  cursor: pointer;
+}
+
+a{
+  color: cornflowerblue;
+  text-decoration: none;
+}
+#nextBtn{
+  display: flex;
+  background: rgba(44, 92, 99, 0.667);
+  margin: auto;
+  padding: 10px 20px;
+  color: rgb(206, 9, 9);
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
