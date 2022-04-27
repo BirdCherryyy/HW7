@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <a href="./index.html"><h1>Logo</h1></a>
+    <a href="./cart.html"><div id="cart"></div></a>
+  </header>
+  <main>
+  <div class="dinamic-block" id="main"></div>
+  <div class="dinamic-block" id="delivery">
+    <p><b>Город</b><br>
+      <input type="text" size="40">
+     </p>
+     <p><b>Адресс доставки</b><br>
+      <input type="text" size="40">
+     </p>
+     <p><b>Телефон</b><br>
+      <input type="text" size="40">
+     </p>
+     <p><b>Присылать уведомления на почту?</b><Br>
+      <input type="radio" name="browser" value="ie"> Да<Br>
+      <input type="radio" name="browser" value="opera"> Нет<Br>
+     </p>
+  </div>
+  <div class="dinamic-block" id="comment">
+    <textarea>
+      Комментарии
+    </textarea>
+  </div>
+  </main>
+
+<footer>
+  <button id="nextBtn">Далее</button>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
